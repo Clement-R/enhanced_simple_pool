@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "unity": "2020.2",
     "description": "An enhanced version of Quill's Simple Pool.",
-    "dependencies": {
+    "gitDependencies ": {
         "com.scarounet.unity_utils": "https://github.com/Clement-R/unity_extensions#upm"
     }
 }

@@ -45,6 +45,7 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.coffee.upm-git-extension": "https://github.com/mob-sakai/UpmGitExtension.git"
+    "com.coffee.upm-git-extension": "https://github.com/mob-sakai/UpmGitExtension.git",
+    "com.scarounet.unity_utils": "git+https://github.com/Clement-R/unity_extensions#upm"
   }
 }

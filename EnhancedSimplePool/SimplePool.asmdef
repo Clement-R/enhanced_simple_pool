@@ -2,7 +2,7 @@
     "name": "SimplePool",
     "rootNamespace": "",
     "references": [
-        "GUID:eb30d87f7c7e0534183a6bc86581d1e8"
+        "UnityUtils"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

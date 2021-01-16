@@ -5,7 +5,7 @@ Requires https://github.com/Clement-R/unity_extensions
 ```
 "dependencies": {
   ...
-  "com.scarounet.unity_utils": "git+https://github.com/Clement-R/unity_extensions#upm"
+  "com.cake.unity_utils": "git+https://github.com/Clement-R/unity_extensions#upm"
   ...
 }
 ```

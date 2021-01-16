@@ -32,7 +32,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-namespace Pooling
+namespace Cake.Pooling
 {
     public static class SimplePool
     {

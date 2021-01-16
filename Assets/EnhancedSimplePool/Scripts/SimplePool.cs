@@ -139,14 +139,17 @@ namespace Cake.Pooling
             // Return an object to the inactive pool.
             public void Despawn(GameObject obj)
             {
-                obj.SetActive(false);
+                if (obj.activeInHierarchy)
+                {
+                    obj.SetActive(false);
 
-                // Since Stack doesn't have a Capacity member, we can't control
-                // the growth factor if it does have to expand an internal array.
-                // On the other hand, it might simply be using a linked list 
-                // internally.  But then, why does it allow us to specify a size
-                // in the constructor? Maybe it's a placebo? Stack is weird.
-                inactive.Push(obj);
+                    // Since Stack doesn't have a Capacity member, we can't control
+                    // the growth factor if it does have to expand an internal array.
+                    // On the other hand, it might simply be using a linked list 
+                    // internally.  But then, why does it allow us to specify a size
+                    // in the constructor? Maybe it's a placebo? Stack is weird.
+                    inactive.Push(obj);
+                }
             }
 
             public void Destroy(bool p_destroyElementsOneByOne = false)
